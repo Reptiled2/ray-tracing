@@ -8,7 +8,8 @@ The simulation calculates which beams are going to hit the target using math equ
 
 ## Screenshots
 
-![App Footage](assets/app.png)
+![App Footage](assets/example.png)
+![App Footage](assets/example2.png)
 
 ## Acknowledgements
 

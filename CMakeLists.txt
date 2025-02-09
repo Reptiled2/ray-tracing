@@ -22,4 +22,4 @@ FetchContent_Declare(SFML
     SYSTEM)
 FetchContent_MakeAvailable(SFML)
 
-target_link_libraries(RayTracing PRIVATE SFML::Graphics SFML::Window SFML::System)
+target_link_libraries(RayTracing PRIVATE SFML::Graphics SFML::Window)

@@ -1,7 +1,6 @@
 #include <SFML/Graphics.hpp>
 #include <SFML/Window.hpp>
 #include <cmath>
-#include <iostream>
 
 #ifndef M_PI
 #define M_PI 3.14159265358979323846
