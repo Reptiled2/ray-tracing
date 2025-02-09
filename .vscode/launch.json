@@ -1,0 +1,14 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Run My Project",
+			"type": "cppdbg",
+			"request": "launch",
+			"program": "${workspaceFolder}/out/Debug/RayTracing.exe",
+			"args": [],
+			"cwd": "${workspaceFolder}",
+			"stopAtEntry": false
+		}
+	]
+}
