@@ -122,6 +122,11 @@ int main() {
       sf::RectangleShape &beam = beams[i];
       beam.setSize({1000.0f, BEAM_THICKNESS});
 
+      if (collision.x == 0.0f && collision.y == 360.0f) {
+        beam.setSize({0.0f, BEAM_THICKNESS});
+        continue;
+      }
+
       const float angle = 360.0f / BEAM_COUNT * i;
       if (collision.x > collision.y) {
         if (angle > collision.x || angle < collision.y) {
