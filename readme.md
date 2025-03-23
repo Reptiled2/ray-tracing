@@ -1,6 +1,6 @@
-# Ray Tracing
+# Ray Casting
 
-A basic 2D ray tracing application made in C++
+A basic 2D ray casting application made in C++
 
 ## How it works
 
